@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.img {
+  height: 30px;
+  width: 30px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nombreCryto {
+
+  position: relative;
+  bottom: 10px;
+  left: 30px;
+  color: #B8BDBA;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.divCryto {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.simbolo {
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+th {
+  background-color: #171515;
+  color: #fff;
+  font-weight: bold;
+  font-size:50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td {
+  background-color: #777180;
+  color: #fff;
+  font-weight: bold;
+
 }
+
+.selector {
+  width: 200px;
+  background-color: black;
+  color: black;
+  font-size: 25px;
+} 
+
+tr {
+  font-size:40px;
+}
+
+.title {
+  font-size:50px;
+
+
+}
+

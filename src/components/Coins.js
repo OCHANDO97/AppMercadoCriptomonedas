@@ -20,7 +20,6 @@ const Coins = () => {
 
   }, [moneda,selectedOption]);
 
-  
 
   const options = [
     { value: 'EUR', label: 'Euros', simbolo: "€" },
